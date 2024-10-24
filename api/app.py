@@ -23,7 +23,7 @@ def receive_get_data():
     message = request.args.get('message')
     # 인코딩된 데이터를 디코딩할 필요가 있음
     decoded_message = urllib.parse.unquote(message) # URL 인코딩 해제
-    print(f"Flask 서버에서 데이터 받음: {decoded_message}")
+    print(f"Java 서버로부터 데이터 받음: {decoded_message}")
     
     # 응답 반환
     response = {'status': '성공함!', 'received_data': decoded_message}
