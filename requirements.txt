@@ -37,3 +37,12 @@ traitlets==5.14.3
 tzdata==2024.2
 wcwidth==0.2.13
 Werkzeug==3.0.4
+
+torch==2.5.0+cu118
+tokenizers==0.20.1
+tqdm==4.66.5
+transformers==4.46.0
+nltk==3.9.1
+networkx==3.2.1
+konlpy==0.6.0
+huggingface-hub==0.26.1
