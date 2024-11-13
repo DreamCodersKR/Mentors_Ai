@@ -6,7 +6,8 @@ from truely import load_model, get_mentee_mentor_data, calculate_fit  # 필요�
 app = Flask(__name__)
 CORS(app)  # 모든 도메인에서의 접근 허용
 
-# 모델 로드
+# 모델 로드 (경로는 개인차가 있음
+)
 model = load_model(r'C:\Users\smhrd1\Desktop\Mentors\ai\models\KoELECTRA_base.pth')
 
 @app.route('/recommend_mentor', methods=['POST'])
